@@ -1,0 +1,34 @@
+.landing-block{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+}
+.landing-links{
+    width: 100%;
+    text-align: center;
+}
+button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px 10px ;
+    border: none;
+    box-shadow: lightgrey;
+    margin-right: 20px;
+    outline:  none;
+    font-size:  14px;
+    font-weight: 500;
+    &:active {
+        transform: translate(1px, 1px);
+        box-shadow: lightgrey 0 0 5px;
+    }
+}
+form{
+    margin: 150px 10px;
+}
+.newsletter{
+    position: absolute;
+    right: 130px;
+    top: 165px;
+  }

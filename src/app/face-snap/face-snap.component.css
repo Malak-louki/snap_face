@@ -1,0 +1,45 @@
+.face-snap-card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  -webkit-box-shadow: lightgrey 4px 4px 20px;
+          box-shadow: lightgrey 4px 4px 20px;
+  border-radius: 20px;
+}
+
+.face-snap-card img {
+  width: 100%;
+}
+
+.face-snap-card h2 {
+  margin-bottom: 0;
+}
+
+.face-snap-card p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.face-snap-card button {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px 10px;
+  border: none;
+  -webkit-box-shadow: lightgrey;
+          box-shadow: lightgrey;
+  margin-right: 20px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.face-snap-card button:active {
+  -webkit-transform: translate(1px, 1px);
+          transform: translate(1px, 1px);
+  -webkit-box-shadow: lightgrey 0 0 5px;
+          box-shadow: lightgrey 0 0 5px;
+}
+/*# sourceMappingURL=face-snap.component.css.map */
